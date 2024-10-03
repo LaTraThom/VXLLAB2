@@ -948,3 +948,116 @@
 2024-10-03 23:13:39,252 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2024-10-03 23:13:39,252 [INFO] IPUIPlugin:74 - create IPUIPlugin
 2024-10-03 23:13:39,263 [INFO] OpenFileManager:333 - Restore cursor
+2024-10-03 23:17:31,296 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:20:16,949 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x186,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:21:32,582 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] Exception in thread "AWT-EventQueue-0" java.lang.NullPointerException
+2024-10-03 23:21:32,583 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Mode.getDiagnostic(Mode.java:1395)
+2024-10-03 23:21:32,584 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.ComboPeriphMode.updateMode(PeriphMode.java:709)
+2024-10-03 23:21:32,585 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.PeripheralTree.updateModes(PeripheralTree.java:665)
+2024-10-03 23:21:32,586 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.PeripheralTree.updateModes(PeripheralTree.java:633)
+2024-10-03 23:21:32,587 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.PeripheralTree.updateModes(PeripheralTree.java:633)
+2024-10-03 23:21:32,587 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.peripheralpanel.PeripheralTree.updateModes(PeripheralTree.java:624)
+2024-10-03 23:21:32,589 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.updatePeripheralsTree(PeripheralsSelectionPanel.java:481)
+2024-10-03 23:21:32,590 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.propertyChange(PeripheralsSelectionPanel.java:585)
+2024-10-03 23:21:32,591 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+2024-10-03 23:21:32,592 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+2024-10-03 23:21:32,593 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.propertyChange(MxSystem.java:446)
+2024-10-03 23:21:32,594 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+2024-10-03 23:21:32,595 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+2024-10-03 23:21:32,596 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266)
+2024-10-03 23:21:32,597 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:50)
+2024-10-03 23:21:32,597 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Mcu.propertyChange(Mcu.java:1660)
+2024-10-03 23:21:32,598 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:341)
+2024-10-03 23:21:32,599 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:333)
+2024-10-03 23:21:32,600 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:266)
+2024-10-03 23:21:32,601 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:50)
+2024-10-03 23:21:32,601 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.mcu.Pin.setLocked(Pin.java:830)
+2024-10-03 23:21:32,602 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.gui.PinOutPanel$4.actionPerformed(PinOutPanel.java:367)
+2024-10-03 23:21:32,602 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1967)
+2024-10-03 23:21:32,603 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2308)
+2024-10-03 23:21:32,604 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405)
+2024-10-03 23:21:32,605 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262)
+2024-10-03 23:21:32,606 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.doClick(AbstractButton.java:369)
+2024-10-03 23:21:32,606 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI.doClick(BasicMenuItemUI.java:1020)
+2024-10-03 23:21:32,607 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.plaf.basic.BasicMenuItemUI$Handler.mouseReleased(BasicMenuItemUI.java:1064)
+2024-10-03 23:21:32,609 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6635)
+2024-10-03 23:21:32,610 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3342)
+2024-10-03 23:21:32,610 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6400)
+2024-10-03 23:21:32,611 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2263)
+2024-10-03 23:21:32,611 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:5011)
+2024-10-03 23:21:32,612 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2321)
+2024-10-03 23:21:32,612 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2024-10-03 23:21:32,613 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4918)
+2024-10-03 23:21:32,614 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4547)
+2024-10-03 23:21:32,614 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4488)
+2024-10-03 23:21:32,615 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2307)
+2024-10-03 23:21:32,615 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Window.dispatchEventImpl(Window.java:2772)
+2024-10-03 23:21:32,616 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4843)
+2024-10-03 23:21:32,617 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:772)
+2024-10-03 23:21:32,617 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:721)
+2024-10-03 23:21:32,618 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:715)
+2024-10-03 23:21:32,618 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2024-10-03 23:21:32,619 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2024-10-03 23:21:32,620 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:95)
+2024-10-03 23:21:32,621 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2024-10-03 23:21:32,621 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:743)
+2024-10-03 23:21:32,622 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(Native Method)
+2024-10-03 23:21:32,623 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:85)
+2024-10-03 23:21:32,623 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:742)
+2024-10-03 23:21:32,624 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2024-10-03 23:21:32,624 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2024-10-03 23:21:32,625 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2024-10-03 23:21:32,626 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2024-10-03 23:21:32,626 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2024-10-03 23:21:32,627 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2024-10-03 23:21:39,308 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:21:55,159 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:22:19,041 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:22:30,032 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:22:42,443 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:22:59,649 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:23:10,114 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:23:20,927 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:23:27,017 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:23:44,311 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:23:51,804 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:23:57,841 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:24:04,940 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 23:24:17,884 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 932142608 Bytes (1073741824)
+2024-10-03 23:24:18,822 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 956069592 Bytes (1073741824)
+2024-10-03 23:24:20,420 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 943904424 Bytes (1073741824)
+2024-10-03 23:24:20,702 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-10-03 23:24:20,702 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-10-03 23:24:20,702 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-10-03 23:24:20,702 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-10-03 23:24:20,702 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2024-10-03 23:24:20,703 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-10-03 23:24:21,013 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\license.tmp_save
+2024-10-03 23:24:21,064 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\license.tmp
+2024-10-03 23:24:21,130 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\gpio.tmp_save
+2024-10-03 23:24:21,202 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\gpio.tmp
+2024-10-03 23:24:21,319 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_it.c_save
+2024-10-03 23:24:21,394 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_it.c
+2024-10-03 23:24:21,397 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_it.h_save
+2024-10-03 23:24:21,447 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_it.h
+2024-10-03 23:24:21,463 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_hal_msp.c_save
+2024-10-03 23:24:21,542 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_hal_msp.c
+2024-10-03 23:24:21,544 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\system.tmp_save
+2024-10-03 23:24:21,606 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\system.tmp
+2024-10-03 23:24:21,618 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-10-03 23:24:21,696 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_hal_conf.h
+2024-10-03 23:24:21,717 [WARN] IPConfigManager:3148 - IP not found : TIM
+2024-10-03 23:24:21,717 [WARN] CodeGenerator:3268 - IP not found : null
+2024-10-03 23:24:21,728 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\main.h_save
+2024-10-03 23:24:21,829 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\main.h
+2024-10-03 23:24:21,843 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\main.c_save
+2024-10-03 23:24:22,368 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\main.c
+2024-10-03 23:24:23,065 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 80mS.
+2024-10-03 23:24:23,069 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-10-03 23:24:23,754 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-10-03 23:24:23,763 [INFO] ApiDbMcu:468 - Load IP Config File for FATFS
+2024-10-03 23:24:23,782 [INFO] ApiDbMcu:468 - Load IP Config File for FREERTOS
+2024-10-03 23:24:23,803 [INFO] ApiDbMcu:468 - Load IP Config File for USB_DEVICE
+2024-10-03 23:24:25,539 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2470mS.
+2024-10-03 23:24:25,540 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2024-10-03 23:24:25,541 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
