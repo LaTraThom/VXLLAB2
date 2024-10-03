@@ -696,3 +696,83 @@
 2024-10-03 21:30:46,539 [INFO] ApiDb:280 - User favorites MCUs=[]
 2024-10-03 21:31:03,634 [INFO] RetryExec:97 - I/O exception (org.apache.http.NoHttpResponseException) caught when processing request to {s}->https://sw-center.st.com:443: The target server failed to respond
 2024-10-03 21:31:03,635 [INFO] RetryExec:113 - Retrying request to {s}->https://sw-center.st.com:443
+2024-10-03 21:34:29,218 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 21:35:27,735 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,450x186,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 21:37:24,430 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 21:39:19,170 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 827536912 Bytes (1073741824)
+2024-10-03 21:39:20,237 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 853751312 Bytes (1073741824)
+2024-10-03 21:39:22,402 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 932920824 Bytes (1073741824)
+2024-10-03 21:39:22,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-10-03 21:39:22,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-10-03 21:39:22,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-10-03 21:39:22,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-10-03 21:39:22,686 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2024-10-03 21:39:22,687 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-10-03 21:39:22,924 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\license.tmp_save
+2024-10-03 21:39:22,972 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\license.tmp
+2024-10-03 21:39:23,059 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\gpio.tmp_save
+2024-10-03 21:39:23,134 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\gpio.tmp
+2024-10-03 21:39:23,247 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_it.c_save
+2024-10-03 21:39:23,340 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_it.c
+2024-10-03 21:39:23,344 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_it.h_save
+2024-10-03 21:39:23,403 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_it.h
+2024-10-03 21:39:23,418 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_hal_msp.c_save
+2024-10-03 21:39:23,517 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_hal_msp.c
+2024-10-03 21:39:23,520 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\system.tmp_save
+2024-10-03 21:39:23,558 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\system.tmp
+2024-10-03 21:39:23,572 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-10-03 21:39:23,641 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_hal_conf.h
+2024-10-03 21:39:23,654 [WARN] IPConfigManager:3148 - IP not found : TIM
+2024-10-03 21:39:23,654 [WARN] CodeGenerator:3268 - IP not found : null
+2024-10-03 21:39:23,667 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\main.h_save
+2024-10-03 21:39:23,743 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\main.h
+2024-10-03 21:39:23,752 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\main.c_save
+2024-10-03 21:39:23,842 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\main.c
+2024-10-03 21:39:24,966 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 67mS.
+2024-10-03 21:39:24,970 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-10-03 21:39:25,388 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-10-03 21:39:27,368 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2398mS.
+2024-10-03 21:39:27,369 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-10-03 21:39:27,371 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-10-03 22:14:26,415 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 22:14:46,018 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 22:14:59,399 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 22:15:16,712 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 22:15:25,351 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 22:15:33,416 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 22:15:42,588 [INFO] NvicIntPanel:96 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2024-10-03 22:17:10,951 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 952860384 Bytes (1073741824)
+2024-10-03 22:17:12,141 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 875508320 Bytes (1073741824)
+2024-10-03 22:17:13,250 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 918499936 Bytes (1073741824)
+2024-10-03 22:17:13,493 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2024-10-03 22:17:13,494 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2024-10-03 22:17:13,494 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2024-10-03 22:17:13,494 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2024-10-03 22:17:13,494 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2024-10-03 22:17:13,494 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2024-10-03 22:17:13,844 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\license.tmp_save
+2024-10-03 22:17:13,950 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\license.tmp
+2024-10-03 22:17:13,976 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\gpio.tmp_save
+2024-10-03 22:17:14,052 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\gpio.tmp
+2024-10-03 22:17:14,119 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_it.c_save
+2024-10-03 22:17:14,217 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_it.c
+2024-10-03 22:17:14,229 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_it.h_save
+2024-10-03 22:17:14,309 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_it.h
+2024-10-03 22:17:14,324 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_hal_msp.c_save
+2024-10-03 22:17:14,418 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\stm32f1xx_hal_msp.c
+2024-10-03 22:17:14,421 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\system.tmp_save
+2024-10-03 22:17:14,476 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\MXTmpFiles\system.tmp
+2024-10-03 22:17:14,489 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_hal_conf.h_save
+2024-10-03 22:17:14,572 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\stm32f1xx_hal_conf.h
+2024-10-03 22:17:14,585 [WARN] IPConfigManager:3148 - IP not found : TIM
+2024-10-03 22:17:14,585 [WARN] CodeGenerator:3268 - IP not found : null
+2024-10-03 22:17:14,600 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\main.h_save
+2024-10-03 22:17:14,665 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Inc\main.h
+2024-10-03 22:17:14,676 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\main.c_save
+2024-10-03 22:17:14,769 [INFO] CodeEngine:257 - Generated code: C:\Users\TIEN DUY\Documents\VXLLAB2\SourceCode\LAB2\Core\Src\main.c
+2024-10-03 22:17:15,845 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 68mS.
+2024-10-03 22:17:15,849 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2024-10-03 22:17:16,217 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2024-10-03 22:17:17,964 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 2115mS.
+2024-10-03 22:17:17,964 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2024-10-03 22:17:17,966 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
