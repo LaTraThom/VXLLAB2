@@ -230,13 +230,10 @@ int counter = 200;
 int index_led = 0;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 	counter--;
-	update7SEG(index_led);
-	if (counter <= 0) {
-		counter = 200;
-		index_led++;
-	}
-	if (index_led > 3) {
+	update7SEG(index_led++);
+	if (index_led > 4) {
 		index_led = 0;
+		counter = 200;
 	}
 }
 /* USER CODE END 4 */
