@@ -232,28 +232,26 @@ int num = 0;
 void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
 	counter--;
 	if (counter >= 75) {
+		HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
 		update7SEG(index_led);
 	}
-	if (counter >= 50 && counter < 75) {
-		num = 1;
-		index_led = 1;
+	if (counter >= 50 & counter < 75) {
+		num++;
+		index_led++;
 		update7SEG(index_led);
 	}
-	if (counter >= 25 && counter < 50) {
-		num = 2;
-		index_led = 2;
+	if (counter >= 25 & counter < 50) {
+		num++;
+		index_led++;
 		update7SEG(index_led);
 	}
-	if (counter >= 0 && counter < 25) {
-		num = 3;
-		index_led = 3;
+	if (counter >= 0 & counter < 25) {
+		num++;
+		index_led++;
 		update7SEG(index_led);
 	}
 	if (counter < 0) {
-		num = 0;
-		index_led = 0;
 		counter = 100;
-		HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
 	}
 }
 /* USER CODE END 4 */
