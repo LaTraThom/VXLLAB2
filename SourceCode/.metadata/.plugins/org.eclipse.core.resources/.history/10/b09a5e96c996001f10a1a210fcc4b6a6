@@ -129,7 +129,8 @@ int main(void)
 		  updateClockBuffer();
 		  	  setTimer0(1000);
 	  }
-
+	  updateClockBuffer();
+	  setTimer0(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
