@@ -61,7 +61,8 @@ static void MX_TIM2_Init(void);
 int timer0_counter = 0;
 int timer0_flag = 0;
 int TIMER_CYCLE = 10;
-void setTimer0(int duration) {
+void set
+Timer0(int duration) {
 	timer0_counter = duration / TIMER_CYCLE;
 	timer0_flag = 0;
 }
@@ -108,7 +109,7 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-setTimer0(1000);
+setTimer(1000);
   while (1)
   {
     /* USER CODE END WHILE */
