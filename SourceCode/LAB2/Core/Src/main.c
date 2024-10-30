@@ -21,6 +21,7 @@
 #include "main.h"
 #include "Ex2.h"
 #include "Ex3.h"
+#include "Ex5.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
@@ -42,7 +43,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 TIM_HandleTypeDef htim2;
-
+int hour = 15, minute = 8, second = 50;
 /* USER CODE BEGIN PV */
 
 /* USER CODE END PV */
@@ -95,10 +96,24 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+
   while (1)
   {
     /* USER CODE END WHILE */
-
+	second++;
+	if (second >= 60) {
+		second = 0;
+		minute++;
+	}
+	if (minute >= 60) {
+		minute = 0;
+		hour++;
+	}
+	if (hour >= 24) {
+		hour = 0;
+	}
+	updateClockBuffer();
+	HAL_Delay(1000);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -226,36 +241,7 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-int counter = 100;
-int index_led = 0;
-int num = 0;
-void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim) {
-	counter--;
-	if (counter >= 75) {
-		update7SEG(index_led);
-	}
-	if (counter >= 50 && counter < 75) {
-		num = 1;
-		index_led = 1;
-		update7SEG(index_led);
-	}
-	if (counter >= 25 && counter < 50) {
-		num = 2;
-		index_led = 2;
-		update7SEG(index_led);
-	}
-	if (counter >= 0 && counter < 25) {
-		num = 3;
-		index_led = 3;
-		update7SEG(index_led);
-	}
-	if (counter < 0) {
-		num = 0;
-		index_led = 0;
-		counter = 100;
-		HAL_GPIO_TogglePin(DOT_GPIO_Port, DOT_Pin);
-	}
-}
+
 /* USER CODE END 4 */
 
 /**
